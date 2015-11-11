@@ -2,7 +2,7 @@
 ###The following steps shows how you can spin up a Virtual Machine for tool Evosuite :
 
 1. Install [vagrant] (https://www.vagrantup.com/downloads.html) and [virtualbox] (https://www.virtualbox.org/wiki/Downloads) on your host machine.
-2. Download the [Vagrantfile] (Vagrantfile) from [build-vm] () folder on your machine and save it in a folder where you want to install the VM.
+2. Download the [Vagrantfile] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/blob/master/build-vm/Vagrantfile) from [build-vm] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/blob/master/build-vm) folder on your machine and save it in a folder where you want to install the VM.
 3. From the host, navigate to that folder (via bash on Linux Machine or Powershell or CommandPrompt on Windows Machine) and execute the command :  
       "vagrant up"
 
