@@ -1,21 +1,17 @@
 #How to build your own Virtual Machine?
 ###The following steps shows how you can spin up a Virtual Machine for tool Evosuite :
 
-  + Install [vagrant](https://www.vagrantup.com/downloads.html) and [virtualbox](https://www.virtualbox.org/wiki/Downloads) on your host machine.
-  + Download the [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/blob/master/build-vm/Vagrantfile) from [build-vm](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/blob/master/build-vm) folder on your machine and save it in a folder where you want to install the VM.
-  + From the host, navigate to that folder (via bash on Linux Machine or Powershell or CommandPrompt on Windows Machine) and execute the command : 
-   
-  "vagrant up"
+1. Install [vagrant] (https://www.vagrantup.com/downloads.html) and [virtualbox] (https://www.virtualbox.org/wiki/Downloads) on your host machine.
+2. Download the [Vagrantfile] (Vagrantfile) from [build-vm] () folder on your machine and save it in a folder where you want to install the VM.
+3. From the host, navigate to that folder (via bash on Linux Machine or Powershell or CommandPrompt on Windows Machine) and execute the command :  
+      "vagrant up"
 
 ###Note :
-
-  + The Virtual Machine will boot up quickly and can be viewed from the Virtual Box but has to wait for the "vagrant up" command for nearly half an hour to complete as it provisions the VM for use.
-  + Deploys Base Vagrant Box : [Ubuntu 14.04 Desktop](https://vagrantcloud.com/box-cutter/boxes/ubuntu1404-desktop)
-  + Default VM Login Credentials:
-    
-  user: vagrant
-    
-  password: vagrant
+ -  The Virtual Machine will boot up quickly and can be viewed from the Virtual Box but has to wait for the "vagrant up" command for nearly half an hour to complete as it provisions the VM for use.
+ -  Deploys Base Vagrant Box : [Ubuntu 14.04 Desktop] (https://vagrantcloud.com/box-cutter/boxes/ubuntu1404-desktop)
+ -  Default VM Login Credentials:  
+      user: vagrant  
+      password: vagrant
 
 ###Acknowledgements:
 
