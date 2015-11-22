@@ -20,16 +20,7 @@ Vagrant.configure(2) do |config|
 	vb.name = "evosuite"
   end
 
-  config.vm.provision "shell", inline: <<-SHELL
-    sudo apt-get update
-    sudo wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java8.sh && bash equip_java8.sh
-	  echo
-	echo "Downloading eclipse, this might take a while ..."
-	echo
-	wget -nv "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/1/eclipse-rcp-mars-1-linux-gtk-x86_64.tar.gz&r=1" -O eclipse-rcp-mars-1-linux-gtk-x86_64.tar.gz
-	echo "Installing eclipse in /opt/eclipse and setting up paths ..."
-	(cd /opt && sudo tar xzf /home/vagrant/eclipse-rcp-mars-1-linux-gtk-x86_64.tar.gz)
-	sudo ln -s /opt/eclipse/eclipse /usr/local/bin/eclipse
-	SHELL
+  config.vm.provision :shell do |sh|
+     sh.path= "install.sh"
+   end
 end
-
