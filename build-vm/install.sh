@@ -19,5 +19,5 @@ sudo rm -rf /home/vagrant/Desktop/FSE-2011-EvoSuite
 #sudo rm /home/vagrant/Desktop/run_script.desktop
 sudo chown vagrant -R /home/vagrant
 sudo chown vagrant -R /home/vagrant/Desktop
-sudo chmod +x /home/vagrant/Desktop/EvoSuite *
+sudo chmod +x /home/vagrant/Desktop/EvoSuite/*
 sudo reboot
