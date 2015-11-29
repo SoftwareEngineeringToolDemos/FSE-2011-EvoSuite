@@ -1,7 +1,22 @@
-EvoSuite: Automatic Test Suite Generation for Java
-Installation Steps:
-1. For the demo on this VM we are using the command line version of the tool which is a jar file.
-2. Since the source code of this tool is not made available by the author, recreating the jar on this VM is not possible.
-Creating a jar out of the source is straight forward and could be done using export jar option in any popular IDE.
+1. Getting EvoSuite:
 
+a. The current release of EvoSuite (main EvoSuite jar file and plugins) is available for download at 
+http://www.evosuite.org/downloads/
 
+b. To access the source code, use the github repository:
+
+git clone https://github.com/EvoSuite/evosuite.git
+
+2. Building EvoSuite:
+
+EvoSuite uses Maven, To build EvoSuite on the command line, install maven and then call
+
+mvn compile
+
+To create a binary distribution that includes all dependencies you can use Maven as well:
+
+mvn package
+
+To build EvoSuite in Eclipse, make sure you have the M2Eclipse plugin installed, and import EvoSuite as Maven project. This will ensure that Eclipse uses Maven to build the project.
+
+Reference: https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite
