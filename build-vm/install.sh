@@ -20,4 +20,10 @@ sudo rm -rf /home/vagrant/Desktop/FSE-2011-EvoSuite
 sudo chown vagrant -R /home/vagrant
 sudo chown vagrant -R /home/vagrant/Desktop
 sudo chmod +x /home/vagrant/Desktop/EvoSuite/*
+#set up sidebar
+sudo rm -f /user/share/applications/libreoffice-writer.desktop
+sudo rm -f /user/share/applications/libreoffice-calc.desktop
+sudo rm -f /user/share/applications/libreoffice-impress.desktop
+sudo rm -f /user/share/applications/amazon-default.desktop
+sudo rm -f /user/share/applications/ubuntu-software-center.desktop
 sudo reboot
