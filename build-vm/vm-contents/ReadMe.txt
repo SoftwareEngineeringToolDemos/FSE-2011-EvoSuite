@@ -12,9 +12,11 @@ Steps to run the tool:
 
 Validating Test Cases:
 
-1. Copy test case and the helper class in eclipse(eclipse shortcut on desktop) under example package under src/test/java folder in EvoSuite-Demo project.
-2. copy ATM.java from ~/Desktop/EvoSuite/ATMExample/src/example to eclipse EvoSuite-Demo project in the eclipse in example package under src/main/java folder.
-3. run the src/test/java folder as junit tests to see all the test cases successfully running.
+1. Open eclipse and create a project called EvoSuite if you do not find it.
+2. Create a project called example in EvoSuite.
+3. Copy test case and the helper class in eclipse(eclipse shortcut on desktop) under example package under src/test/java folder in EvoSuite project.
+4. copy ATM.java from ~/Desktop/EvoSuite/ATMExample/src/example to eclipse EvoSuite project in the eclipse in example package under src/main/java folder.
+5. run the src/test/java folder as junit tests to see all the test cases successfully running.
 
 While this is only simple test to check if the tool is working as supposed to be in the paper. The tool offers more powerful options for automated test case generation. To dig deep into this tool follow the below link.
 
