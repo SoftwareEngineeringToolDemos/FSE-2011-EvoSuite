@@ -118,6 +118,6 @@ In this repository, for EvoSuite you will find:
 
 + :white_check_mark: [Source code] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/) (available) 
 - :white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-EvoSuite/blob/master/evosuite-1.0.1.jar) (available) 
-+ :white_check_mark: [Virtual Machine containing tool](https://drive.google.com/file/d/0B3Uf4Uur8yIWUHdXOFo0U1Y4QnM/view?usp=sharing)
+* :white_check_mark: [Virtual machine containing tool](http://go.ncsu.edu/SE-tool-VMs)
 
 This repository was constructed by [Shabbir Abdul](https://github.com/shabbirabdul) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to [Gordon Fraser](https://github.com/gofraser) and [Andrea Arcuri](https://github.com/arcuri82) for their help in establishing this repository.
